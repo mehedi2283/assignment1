@@ -119,3 +119,17 @@ body section p {
     padding-left: 30px;
     background-color: rgb(255, 232, 216);
 }
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+footer h1 {
+    font-family: cursive;
+    color: darksalmon;
+    font-weight: 900;
+}
