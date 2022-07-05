@@ -42,7 +42,7 @@ body section p {
 }
 
 .btn:hover {
-    background-color: rgb(255, 224, 224);
+    background-color: rgb(255, 190, 190);
     color: rgb(210, 28, 28);
 }
 
@@ -54,6 +54,7 @@ body section p {
 .flex {
     list-style: none;
     display: inline-flex;
+
 }
 
 .flex li {
@@ -79,4 +80,42 @@ body section p {
     outline: 0;
 
 
+}
+
+.sec3 {
+    text-align: center;
+
+}
+
+.sec3 h1 {
+    font-weight: 700;
+}
+
+#sec3p {
+    padding: 1px 30%;
+}
+
+
+
+
+
+#list1 {
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: rgb(236, 216, 255);
+}
+
+#list2 {
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: rgb(216, 255, 248);
+}
+
+#list3 {
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: rgb(255, 232, 216);
 }
