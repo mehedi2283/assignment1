@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(240, 240, 240, 0.841);
 }
 
 .top1 {
@@ -103,28 +104,31 @@ body section p {
     text-align: left;
     padding-top: 70px;
     padding-left: 30px;
-    background-color: rgb(236, 216, 255);
+    background-color: rgb(191, 160, 218);
 }
 
 #list2 {
     text-align: left;
+    width: 60%;
     padding-top: 70px;
     padding-left: 30px;
-    background-color: rgb(216, 255, 248);
+    background-color: rgb(166, 221, 211);
 }
 
 #list3 {
     text-align: left;
     padding-top: 70px;
     padding-left: 30px;
-    background-color: rgb(255, 232, 216);
+    background-color: rgb(224, 187, 160);
 }
+
 
 footer {
     background-color: black;
     text-align: center;
     color: white;
     padding: 20px;
+    border-bottom: 20px solid gray;
 
 }
 
