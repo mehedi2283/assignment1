@@ -102,6 +102,13 @@ body section p {
 
 #list1 {
     text-align: left;
+    text-decoration: none;
+
+    margin-bottom: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
     padding-top: 70px;
     padding-left: 30px;
     background-color: rgb(191, 160, 218);
@@ -109,7 +116,12 @@ body section p {
 
 #list2 {
     text-align: left;
-    width: 60%;
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    margin-bottom: 10%;
+    width: 70%;
     padding-top: 70px;
     padding-left: 30px;
     background-color: rgb(166, 221, 211);
@@ -117,6 +129,13 @@ body section p {
 
 #list3 {
     text-align: left;
+    text-decoration: none;
+    margin-bottom: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border-radius: 10px;
+
     padding-top: 70px;
     padding-left: 30px;
     background-color: rgb(224, 187, 160);
@@ -136,4 +155,12 @@ footer h1 {
     font-family: cursive;
     color: darksalmon;
     font-weight: 900;
+}
+
+.flex2 {
+    display: inline-flex;
+    text-align: left;
+    margin: 10px 8%;
+    list-style: none;
+
 }
