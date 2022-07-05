@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top1 {
+    text-align: center;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10%;
+}
+
+
+body section h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+body section p {
+    font-weight: 100;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: rgb(255, 100, 73);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 224, 224);
+    color: rgb(210, 28, 28);
+}
+
+.donate {
+    text-align: center;
+    padding: 10px 15%;
+}
+
+.flex {
+    list-style: none;
+    display: inline-flex;
+}
+
+.flex li {
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 10px 50px;
+    background-color: rgba(203, 203, 203, 0.415);
+}
+
+#redborder {
+    background-color: rgba(255, 126, 94, 0.604);
+    color: rgb(182, 11, 11);
+    border: 2px solid rgb(182, 11, 11);
+}
+
+.inputtext {
+    border: none;
+    border-bottom: 2px solid rgb(157, 157, 157);
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    outline: 0;
+
+
+}
