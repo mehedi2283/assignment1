@@ -108,13 +108,13 @@ body section p {
     text-decoration: none;
 
     margin-bottom: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 
     padding-top: 70px;
     padding-left: 30px;
-    background-color: rgb(191, 160, 218);
+    background-color: rgba(191, 160, 218, 0.524);
 }
 
 #list2 {
@@ -124,24 +124,26 @@ body section p {
     border-radius: 10px;
 
     margin-bottom: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 70%;
     padding-top: 70px;
     padding-left: 30px;
-    background-color: rgb(166, 221, 211);
+    background-color: rgba(166, 221, 211, 0.452);
 }
 
 #list3 {
     text-align: left;
     text-decoration: none;
     margin-bottom: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     border-radius: 10px;
 
     padding-top: 70px;
     padding-left: 30px;
-    background-color: rgb(224, 187, 160);
+    background-color: rgba(224, 187, 160, 0.353);
 }
 
 
@@ -149,8 +151,8 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 20px;
-    border-bottom: 20px solid gray;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
 
 }
 
