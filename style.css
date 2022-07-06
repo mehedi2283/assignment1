@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(240, 240, 240, 0.841);
+    background-color: rgba(238, 237, 237, 0.496);
 }
 
 .top1 {
@@ -38,6 +38,7 @@ body section p {
     padding: 10px 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: 0.7s;
 
 
 }
@@ -45,6 +46,7 @@ body section p {
 .btn:hover {
     background-color: rgb(255, 190, 190);
     color: rgb(210, 28, 28);
+    transition: 0.7s;
 }
 
 .donate {
@@ -162,5 +164,100 @@ footer h1 {
     text-align: left;
     margin: 10px 8%;
     list-style: none;
+
+}
+
+.flex3 {
+    display: flex;
+    width: 50%;
+    margin-top: 0x;
+
+}
+
+.lastsec {
+    margin-left: 40%;
+
+}
+
+.emailsub {
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10%;
+
+
+}
+
+.emailsub input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(255, 227, 186);
+}
+
+.emailsub button {
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(240, 37, 37, 0.842);
+    border-radius: 0 10px 10px 0;
+    transition: 0.7s;
+}
+
+.emailsub button:hover {
+    background-color: rgb(195, 0, 0);
+    transition: 0.7s;
+}
+
+
+.help {
+
+    height: 350px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 330px;
+    border-radius: 10px;
+    background-image: url(pic3.jpg);
+    background-position: left;
+    background-size: cover;
+    color: rgb(85, 255, 198);
+    padding-top: 100px;
+}
+
+.and {
+    height: 350px;
+    margin-left: 30px;
+    width: 330px;
+    border-radius: 10px;
+    background-image: url(pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 77, 144);
+}
+
+.save {
+    height: 350px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 330px;
+    border-radius: 10px;
+    background-image: url(pic4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 154, 23);
+    padding-top: 100px;
+}
+
+.life {
+    height: 350px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 330px;
+    border-radius: 10px;
+    background-image: url(pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(198, 63, 0);
 
 }
