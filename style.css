@@ -64,8 +64,8 @@ body section p {
 .flex li {
     font-weight: 700;
     border-radius: 5px;
-    margin: 50px;
-    padding: 10px 50px;
+    margin: 40px;
+    padding: 30px 50px;
     background-color: rgba(203, 203, 203, 0.415);
 }
 
@@ -152,7 +152,7 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
 
 }
 
@@ -212,6 +212,48 @@ footer h1 {
     background-color: rgb(195, 0, 0);
     transition: 0.7s;
 }
+
+.images h1 {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.survive {
+    background-image: url(flood.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    height: 700px;
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.survive h1 {
+    padding-left: 20px;
+    padding-top: 40%;
+
+}
+
+
+#red {
+    color: rgb(214, 0, 0);
+    font-weight: 700;
+    border: 5px solid rgb(214, 0, 0);
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+#red:hover {
+    background-color: rgb(214, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
 
 
 .help {
